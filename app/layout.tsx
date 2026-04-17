@@ -22,9 +22,24 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Save the Date — Aishwarya & Shubhangi",
-  description:
-    "You are cordially invited to celebrate the wedding of Aishwarya and Shubhangi on 27th June 2026.",
+  title: "Aishwarya & Shubhangi Wedding Invitation",
+  description: "Join us in celebrating the wedding of Aishwarya and Shubhangi",
+
+  openGraph: {
+    title: "Aishwarya & Shubhangi Wedding Invitation",
+    description: "Join us in celebrating the wedding of Aishwarya and Shubhangi",
+    url: "https://yourdomain.com",
+    siteName: "Wedding Invite",
+    images: [
+      {
+        url: "/preview.jpeg", // IMPORTANT
+        width: 1200,
+        height: 630,
+        alt: "Wedding Invitation Preview",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
