@@ -48,6 +48,9 @@ const scaleFade: Variants = {
    Ganesha SVG  — close to reference style:
    sitting figure, OM below, sage-green / gold
 ───────────────────────────────────────────── */
+
+
+
 function GaneshaIcon() {
   const g = C.gold;
   const gs = C.sageDark;
@@ -381,9 +384,22 @@ function InvitationCard() {
         }}
       >
         {/* Ganesha icon */}
-        <motion.div variants={fadeUp} style={{ marginBottom: 14 }}>
+       <motion.div variants={fadeUp} style={{ marginBottom: 6 }}>
           <GaneshaIcon />
         </motion.div>
+
+        <motion.p
+          variants={fadeUp}
+          style={{
+            fontFamily: "var(--font-cormorant)",
+            fontSize: 12,
+            letterSpacing: "0.18em",
+            color: C.sageDark,
+            marginBottom: 10,
+          }}
+        >
+          ॐ श्री गणेशाय नमः
+        </motion.p>
 
         {/* SAVE the DATE — reference style: SAVE & DATE uppercase spaced, "the" script */}
         <motion.div variants={fadeUp} style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 2 }}>
