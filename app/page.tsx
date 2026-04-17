@@ -508,7 +508,7 @@ function InvitationCard() {
           lineHeight: 1,
           marginBottom: 28,
         }}>
-          Aishwarya
+          Aishwary
         </motion.h1>
 
         {/* Date */}
