@@ -564,6 +564,7 @@ function useMusicOnOpen(opened: boolean) {
     audio.loop = true;
     audio.volume = 0.55;
     audioRef.current = audio;
+    audio.currentTime = 5;
     return () => { audio.pause(); audio.src = ""; };
   }, []);
 

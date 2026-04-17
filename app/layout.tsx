@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aishwarya & Shubhangi Wedding Invitation",
     description: "Join us in celebrating the wedding of Aishwarya and Shubhangi",
-    url: "https://yourdomain.com",
+    url: "Shubhangi-weds-Aishwary.com",
     siteName: "Wedding Invite",
     images: [
       {
