@@ -425,7 +425,7 @@ function InvitationCard() {
                 letterSpacing: "0.04em",
               }}
             >
-              27th June 2026
+              <b>27th June 2026</b>
             </p>
             <p
               style={{
@@ -436,7 +436,6 @@ function InvitationCard() {
                 textTransform: "uppercase",
               }}
             >
-              8:00 PM onwards
             </p>
           </motion.div>
 
