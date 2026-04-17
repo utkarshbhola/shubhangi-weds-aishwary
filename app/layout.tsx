@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Wedding Invite",
     images: [
       {
-        url: "https://aishwarya-weds-shubhangi.vercel.app//preview.jpg",
+        url: "https://aishwarya-weds-shubhangi.vercel.app/preview.jpeg", // IMPORTANT
         width: 1200,
         height: 630,
         alt: "Wedding Invitation Preview",
