@@ -218,37 +218,6 @@ function Envelope({ onOpen }: { onOpen: () => void }) {
             />
           </svg>
         </motion.div>
-
-        {/* Gold OM seal (no red dot) */}
-        <motion.div
-          className="absolute z-10 flex items-center justify-center"
-          style={{
-            width: 50,
-            height: 50,
-            borderRadius: "50%",
-            background: `radial-gradient(circle at 38% 35%, ${C.goldPale}, ${C.gold})`,
-            border: `2px solid ${C.ivory}`,
-            boxShadow: `0 2px 16px rgba(184,134,11,0.5)`,
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-          }}
-          animate={clicked ? { scale: 0, opacity: 0 } : { scale: 1, opacity: 1 }}
-          transition={{ duration: 0.28, delay: clicked ? 0.08 : 0 }}
-        >
-          <span
-            style={{
-              fontSize: 24,
-              lineHeight: 1,
-              color: C.redDeep,
-              fontWeight: 700,
-              fontFamily: "serif",
-              marginTop: 2,
-            }}
-          >
-            ॐ
-          </span>
-        </motion.div>
       </div>
 
       {/* CTA */}
