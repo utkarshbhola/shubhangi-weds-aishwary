@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aishwarya & Shubhangi Wedding Invitation",
     description: "Join us in celebrating the wedding of Aishwarya and Shubhangi",
-    url: "Shubhangi-weds-Aishwary.com",
+    url: "https://aishwarya-weds-shubhangi.vercel.app",
     siteName: "Wedding Invite",
     images: [
       {
-        url: "/preview.jpeg", // IMPORTANT
+        url: "https://aishwarya-weds-shubhangi.vercel.app//preview.jpg",
         width: 1200,
         height: 630,
         alt: "Wedding Invitation Preview",
